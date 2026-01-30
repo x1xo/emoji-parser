@@ -51,6 +51,8 @@ Custom emoji IDs must be at least 16 digits.
 results := emojiparser.ParseDiscordCustom("<a:wave:1234567890123456>")
 ```
 
+Note: Another validation is required to check if that emoji exists within Discord.
+
 ## ParsedEmoji
 
 `ParsedEmoji` includes:
